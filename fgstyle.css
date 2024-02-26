@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    color: white;
+    background-color: #000;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 30px 13%;
+    background: transparent;
+    transition: all ease .50s;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navlist{
+    display: flex;
+}
+.navlist a{
+    margin: 0 30px;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all ease .50s;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+.navlist a.active{
+    border-bottom: 2px solid white;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.h-btn{
+    display: inline-block;
+    padding: 9px 20px;
+    border: 1px solid #f5dca8;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-right: 20px;
+    color: #fff;
+    transition: all ease .50s;
+}
+
+.h-btn:hover{
+    transform: scale(1.06);
+    color: #000;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+#menu-icon{
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+
+}
+.container{
+
+}
+
+.container h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container h1{
+    font-size: 100px;
+    margin: 0px 0px 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Reggae One", system-ui;
+}
+
+.container h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container p{
+    width: 500px;
+    max-width: 100%;
+    line-height: 2;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.container a{
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all ease .50s;
+}
